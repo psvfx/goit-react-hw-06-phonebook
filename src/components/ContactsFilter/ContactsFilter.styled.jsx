@@ -3,7 +3,7 @@ import { font } from 'components/Style/mixins';
 
 export const LabelSearchContact = styled.label`
   display: block;
-  color: #f51616;
+  color: #2f4f4f;
   ${font};
   margin-right: 5px;
   margin-bottom: 10px;

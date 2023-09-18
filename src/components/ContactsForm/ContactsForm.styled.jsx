@@ -5,7 +5,7 @@ import { Form, Field } from 'formik';
 export const FormAddContact = styled(Form)`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
 `;
 
@@ -23,7 +23,7 @@ export const InputField = styled(Field)`
 
 export const Label = styled.label`
   display: block;
-  color: #f51616;
+  color: #2f4f4f;
 `;
 
 export const ButtonAddContact = styled.button`

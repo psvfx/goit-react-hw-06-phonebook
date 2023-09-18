@@ -5,21 +5,22 @@ export const font = ({ fs, fw, lh }) => `
 
 `;
 export const titleColor = () => `
-    color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  background-image: conic-gradient(
-    #553c9a 30%,
-    #ee4b2b 40%,
-    #ee4b2b 70%,
-    #00c2cb 80%,
-    #553c9a
-  );
+//     color: transparent;
+//   background-clip: text;
+//   -webkit-background-clip: text;
+//   background-image: conic-gradient(
+//     #553c9a 30%,
+//     #ee4b2b 40%,
+//     #ee4b2b 70%,
+//     #00c2cb 80%,
+//     #553c9a
+//   );
+color: #B8860B;
 `;
 
 export const btn = () => `
-   background: #a99d9c;
-  border: 1px solid #a99d9c;
+   background: #B8860B;
+  border: 1px solid #a99d5c;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 4px;
   box-sizing: border-box;
